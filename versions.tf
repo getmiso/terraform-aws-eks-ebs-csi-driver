@@ -13,7 +13,7 @@ terraform {
     }
     helm = {
       source  = "hashicorp/helm"
-      version = ">= 1.0, < 3.0"
+      version = ">= 1.0, < 3.1"
     }
     utils = {
       source  = "cloudposse/utils"
